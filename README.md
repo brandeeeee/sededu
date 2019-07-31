@@ -9,33 +9,33 @@
 <!-- [![Anaconda-Server Badge](https://anaconda.org/sededu/sededu/badges/platforms.svg)](https://anaconda.org/sededu/sededu) -->
 
 <!-- # SedEdu -->
-SedEdu is a suite of educational activities related to geomorphology and sedimentology. 
-The suite is targeted at educators who want to bring engaging, interactive, and scientifically relevant activities into their classroom. 
-SedEdu is built __entirely in Python and is free and open source__ software. 
+SedEdu is a suite of educational activities related to geomorphology and sedimentology.
+The suite is targeted at educators who want to bring engaging, interactive, and scientifically relevant activities into their classroom.
+SedEdu is built __entirely in Python and is free and open source__ software.
 Modules included in SedEdu are built by researchers at the cutting edge of their fields and are designed to showcase their research in a digestible manner.
 
 <img src="https://raw.githubusercontent.com/sededu/sededu/develop/private/sededu_demo.png" width="600" align="center">
-    
+
 
 
 # Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for use in the classroom. 
+These instructions will get you a copy of the project up and running on your local machine for use in the classroom.
 See [Contributing to SedEdu](#contributing-to-sededu) for information on becoming a part of the SedEdu project.
 
 
 ## Installing dependencies
 
-SedEdu runs in Python 3 and utilizes PyQt5 for rendering the graphical user interface. 
-Modules included in SedEdu rely on `scipy`, `matplotlib`, `pillow`, and `shapely`. 
+SedEdu runs in Python 3 and utilizes PyQt5 for rendering the graphical user interface.
+Modules included in SedEdu rely on `scipy`, `matplotlib`, `pillow`, and `shapely`.
 
-You can check your Python version by running: `python3 -V` in a terminal. 
+You can check your Python version by running: `python3 -V` in a terminal.
 Note that you may need to specify the path to your Python executable on some systems.
-If you do not have Python 3 installed, you will need to do so to use SedEdu. 
+If you do not have Python 3 installed, you will need to do so to use SedEdu.
 This will not disrupt an existing Python 2.x installation, if you rely on that for other uses.
 
-If you are new to Python, __it is strongly recommended that you install Anaconda Python__, which is an open source distribution of Python which includes many basic scientific libraries, some of which are used in the module. 
-Anaconda can be downloaded at https://www.anaconda.com/download/ for Windows, macOS, and Linux. 
+If you are new to Python, __it is strongly recommended that you install Anaconda Python__, which is an open source distribution of Python which includes many basic scientific libraries, some of which are used in the module.
+Anaconda can be downloaded at https://www.anaconda.com/download/ for Windows, macOS, and Linux.
 If you do not have storage space on your machine for Anaconda or wish to install a smaller version of Python for another reason, see below on options for Miniconda or vanilla Python.
 
 1. Visit the website for Anaconda https://www.anaconda.com/download/ and select the installer for your operating system.
@@ -46,8 +46,8 @@ __Be sure to select the Python 3.x installation.__
 5. If you received no errors, proceed to installing below.
 
 
-If you want a more flexible and lightweight Python distribution, you can use whatever your favorite package manager is distributing (e.g., `homebrew` or `apt`), check the [Windows downloads here](https://www.python.org/downloads/windows/), or compile [from source](https://www.python.org/downloads/source/). 
-If you go this route, you will need to also install `pip3`, PyQt5 (`python3-pyqt5`), and the dependency python packages listed below. 
+If you want a more flexible and lightweight Python distribution, you can use whatever your favorite package manager is distributing (e.g., `homebrew` or `apt`), check the [Windows downloads here](https://www.python.org/downloads/windows/), or compile [from source](https://www.python.org/downloads/source/).
+If you go this route, you will need to also install `pip3`, PyQt5 (`python3-pyqt5`), and the dependency python packages listed below.
 
 Note that on Linux, users may need to specify an installation of `pyqt` and/or `tkinter` directly from `apt`:
 Install PyQt5:
@@ -59,10 +59,10 @@ sudo apt install python3-pyqt5 python3-tk
 
 ## Installing SedEdu
 
-If you installed Anaconda Python or Miniconda, you can follow the instructions below for your operating system. 
+If you installed Anaconda Python or Miniconda, you can follow the instructions below for your operating system.
 Otherwise see the instructions for PyPi installation below.
 
-__Please__ [open an issue](https://github.com/sededu/rivers2stratigraphy/issues) if you encounter any troubles installing or any error messages along the way! 
+__Please__ [open an issue](https://github.com/sededu/rivers2stratigraphy/issues) if you encounter any troubles installing or any error messages along the way!
 Please include 1) operating system, 2) installation method, and 3) copy-paste the error.
 
 ### Windows users
@@ -73,7 +73,7 @@ Please include 1) operating system, 2) installation method, and 3) copy-paste th
 ```
 conda install -c sededu sededu
 ```
-If asked to proceed at either step, type `Y` and press "enter" to continue installation. 
+If asked to proceed at either step, type `Y` and press "enter" to continue installation.
 3. This process may take a few minutes as the necessary source code is downloaded.
 If the installation succeeds, proceed below to the "Run the module" section.
 
@@ -144,7 +144,7 @@ Alternatively, run the module with provided script:
 python3 <path-to-installation>run_sededu.py
 ```
 
-Please [open an issue](https://github.com/sededu/sededu/issues) if you encounter any additional error messages! 
+Please [open an issue](https://github.com/sededu/sededu/issues) if you encounter any additional error messages!
 Please include 1) operating system, 2) installation method, and 3) copy-paste the error.
 
 
@@ -204,6 +204,7 @@ See [CONTRIBUTING.md](https://github.com/sededu/sededu/blob/release/CONTRIBUTING
 * **Andrew J. Moodie** - *3 modules* - [github.com/amoodie](https://github.com/amoodie)
 * **Kensuke Naito** - *1 module* - [github.com/kensukename2](https://github.com/kensukename2)
 * **Jeffrey Kwang** - *1 module* - [github.com/jeffskwang](https://github.com/jeffskwang)
+* **Brandee Carlson** - *1 module* - [github.com/brandeeeee](https://github.com/brandeeeee)
 
 See also the list of [contributors](https://github.com/sededu/sededu/graphs/contributors) who have participated in this project in other ways.
 
